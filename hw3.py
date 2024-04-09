@@ -1,6 +1,6 @@
 def get_fixed_price(discount_rate, discounted_price):
     fixed_price = discounted_price / (100 - discount_rate) * 100
-    return fixed_price
+    return int(fixed_price)
 
 
 discount_rate = int(input("할인율은?"))
