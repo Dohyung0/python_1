@@ -1,4 +1,5 @@
 import pickle
+import os
 
 filename = 'scores.bin'
 
