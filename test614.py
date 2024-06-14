@@ -22,7 +22,7 @@ def submit():
     
 
 def close():
-    win.distroy
+    win.distroy()
 
 lab1 = tk.Label(win)
 lab1.config(text = '이름:')
