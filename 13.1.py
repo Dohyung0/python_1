@@ -52,3 +52,5 @@ btn4 = tk.Button(win)
 btn4.config(text = '종료')
 btn4.config(command = close)
 btn4.pack()
+
+win.mainloop()
